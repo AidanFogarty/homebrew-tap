@@ -5,20 +5,20 @@
 class Rgbx < Formula
   desc ""
   homepage ""
-  version "0.2.0"
+  version "1.0.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/AidanFogarty/rgbx/releases/download/v0.2.0/rgbx_Darwin_x86_64.tar.gz"
-      sha256 "4d2f5aecd75971b490d652dd6809013f0553607875c3f39bdfb1b2e73909ae63"
+      url "https://github.com/AidanFogarty/rgbx/releases/download/v1.0.0/rgbx_Darwin_x86_64.tar.gz"
+      sha256 "7e693d4de2551fdac6e24686fdfafb1d9c32546732b50c0d53f1082cfeac6e21"
 
       def install
         bin.install "rgbx"
       end
     end
     on_arm do
-      url "https://github.com/AidanFogarty/rgbx/releases/download/v0.2.0/rgbx_Darwin_arm64.tar.gz"
-      sha256 "b25a62efea47cae693bd8beff31033eac0521bbb8e3c94ba4a886e225ab5b259"
+      url "https://github.com/AidanFogarty/rgbx/releases/download/v1.0.0/rgbx_Darwin_arm64.tar.gz"
+      sha256 "5b459b11ff46b416f6c36991d74854c9b8f629a7b77c7324cb6543d2de429e4c"
 
       def install
         bin.install "rgbx"
@@ -29,8 +29,8 @@ class Rgbx < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/AidanFogarty/rgbx/releases/download/v0.2.0/rgbx_Linux_x86_64.tar.gz"
-        sha256 "3e6dedfd4582fa1041d8a844a51cb9fb3f9423cc93100b2646fdf19d58faa691"
+        url "https://github.com/AidanFogarty/rgbx/releases/download/v1.0.0/rgbx_Linux_x86_64.tar.gz"
+        sha256 "e4bacaffcab84856487844b61c9c0675142c6378886b6cd726e51dcb9033a4e6"
 
         def install
           bin.install "rgbx"
@@ -39,8 +39,8 @@ class Rgbx < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/AidanFogarty/rgbx/releases/download/v0.2.0/rgbx_Linux_arm64.tar.gz"
-        sha256 "7f4f3b8e41a3d1ae28ec748f910c77008ac5130abda4feab404cc930f2c2a507"
+        url "https://github.com/AidanFogarty/rgbx/releases/download/v1.0.0/rgbx_Linux_arm64.tar.gz"
+        sha256 "bc0c841512b3cbc5caca8088c2c151d3b5bacb429c70da33fe050ba945b4fa06"
 
         def install
           bin.install "rgbx"
