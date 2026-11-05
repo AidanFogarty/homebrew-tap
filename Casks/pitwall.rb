@@ -3,7 +3,7 @@ cask "pitwall" do
   name "pitwall"
   desc ""
   homepage ""
-  version "0.0.6"
+  version "0.0.7"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "pitwall" do
   on_macos do
     on_intel do
       url "https://github.com/AidanFogarty/pitwall/releases/download/v#{version}/pitwall_Darwin_x86_64.tar.gz"
-      sha256 "8157d7e1384bc4232ca6d816f4f3153de766d77ef3756424a9adc0befe5d4a56"
+      sha256 "2df2c39a3fa8c36c124dbbaba523f8dcfa21ba3e4d5cb296cacf8233011085b8"
     end
     on_arm do
       url "https://github.com/AidanFogarty/pitwall/releases/download/v#{version}/pitwall_Darwin_arm64.tar.gz"
-      sha256 "a407e4c382fb72b962a0d2d8ad993b94517d614594ef415047844d68c97208ec"
+      sha256 "888795e8e776c88aa52aa4c5a2888fff2b948f2d22bac96e356fa1f1abbdc517"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/AidanFogarty/pitwall/releases/download/v#{version}/pitwall_Linux_x86_64.tar.gz"
-      sha256 "23e21058b83488b6005aa328cc5ba93011eac2186ed45a4f1d39ee51467c4061"
+      sha256 "c78e5cfb1cd343f53722ffd3e86b7804fefd71c22354402c553ddac89dc1ffeb"
     end
     on_arm do
       url "https://github.com/AidanFogarty/pitwall/releases/download/v#{version}/pitwall_Linux_arm64.tar.gz"
-      sha256 "96b1270d78ab5b4b3b59c847553a05ceb98c28801f07756ada8046051b342f9d"
+      sha256 "a05ef9e8c9d8d0a13da889b351fca13ee20add4c2e38b058385c5c0e913da852"
     end
   end
 
